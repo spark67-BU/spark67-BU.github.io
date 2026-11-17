@@ -5,21 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Sean Park!</title>
     <link rel="stylesheet" href="../css/commonStyle.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contactForm.css">
 </head>
 <body>
       <nav>
         <img src="/img/spiine.gif">
+        <div id="NavigationLinks">
      <a href="../index.html">Welcome</a>
     <a href="photoGallery.html">Photo Gallery</a>
     <a href="myHobbies.html">My Hobbies</a>
     <a href="myExperience.html">Work Experience</a>
     <a href="contactForm.html">Contact Me!</a>
-
+</div>
 </nav>
 <header>
     <h1>Get In Touch With Me!</h1>
 </header>
+<div class="Form">
     <form id="ContactMeForm">
         <div>
         <label for="FirstName">First Name</label><br>
@@ -27,7 +29,6 @@
         <p id="erorMessageFirstName" class="errorMessage"></p>
         </div>
 
-        <br>
 
         <div>
         <label for="LastName">Last Name</label><br>
@@ -35,7 +36,6 @@
         <p id="erorMessageLastName" class="errorMessage"></p>
         </div>
 
-        <br>
 
         <div>
         <label for="EmailInput">Email</label><br>
@@ -53,6 +53,7 @@
         <p id="erorMessageSubmitForm" class="errorMessage"></p>
         </div>
     </form>
+    </div>
 </body>
 <footer>
 

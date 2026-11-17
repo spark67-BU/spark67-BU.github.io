@@ -1,0 +1,30 @@
+
+
+.Form {
+    align-items: center;
+    flex-direction: column;
+	justify-content: center;
+    display: flex;
+
+}
+
+form {
+    padding: 2rem;
+    font-size: 36px;
+    height: 100vh;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    
+}
+
+textarea {
+    width: 25rem;
+    height: 10rem;
+    font-size: 20px;
+}
