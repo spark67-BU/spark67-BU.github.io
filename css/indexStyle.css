@@ -3,7 +3,6 @@
 
 
 
-
 header {
 	height: 100vh;
 	display: flex;
@@ -11,12 +10,13 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
+	
+	
 }
 
 nav {
     position: sticky;
     top: 0px; z-index: 10;
-	background-color: grey;
 }
 nav > a {
 	font-size: 20px;
@@ -36,6 +36,7 @@ h2 {
 #aboutMeText {
 	text-align: center;
 	font-size: 20px;
+	padding: 1rem;
 
 }
 
@@ -57,8 +58,24 @@ header {
 }
 
 .button {
-	background-color: crimson;
+	background-color: darkred;
 	border-radius: 6px;
 	padding: 1rem;
 }
+/* 
 
+.sliding-background {
+  background: url("../img/titans.jpeg") repeat-x;
+  height: 2000px;
+  width: 5076px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+} */

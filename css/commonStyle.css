@@ -46,25 +46,50 @@ table {
 nav {
     position: sticky;
     top: 0px; z-index: 10;
-	background-color: grey;
+	background-color: darkred;
+	display: flex;
+	/*justify-content: center; */
 }
-nav > a {
+nav > div > a {
 	font-size: 20px;
+	padding:1rem;
+}
+
+#NavigationLinks {
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 nav > img {
-		width: 10%;
+	width: 15%;
 
 }
 h1 {
     font-size: 48px;
-	background-color:bisque;
-	border-radius: 6px;
+	background-color:darkred;
 	padding: 1rem;
+	text-align: center;
 }
 
 	footer {
 	padding: 4rem;
 	text-align: center;
-	background-color: grey;
+	background-color:darkred;
 	color:white;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 24px;
+	padding: 0.25rem;
 }

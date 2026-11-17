@@ -1,0 +1,83 @@
+.Hobbies {
+    overflow: hidden;
+}
+
+section {
+  background: white;
+
+
+}
+
+/* article {
+  height: 100vh;
+  display: flex;
+} */
+
+/* #worldofwarcraft {
+    background-image: url(../img/ascension.jpg);
+    background-repeat: no-repeat;
+  	background-position: center;
+} */
+
+.gamingArticle {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;      
+  text-align: left;   
+}
+
+img {
+  max-width: 256px;
+
+}
+
+/*This css trick came from https://css-tricks.com/fixed-background-effect/*/
+#worldofwarcraft {
+    background-image: url("../img/ascension.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+#EVEOnline {
+    background-image: url("../img/titans.jpeg");
+      background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+#minecraft {
+    background-image: url("../img/minecraftBackground.jpg");
+      background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+#planetside2 {
+        background-image: url("../img/20120820_503299cda3cc5-1782210518.jpg");
+      background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+.gamingArticle article {
+  width: min(90%, 50rem);
+  background-color: rgba(170, 66, 66, 0.822);
+  color:antiquewhite
+}
+
+article > p {
+    padding: 0.5rem;
+}
+
+.multiLogo {
+  max-width: 256px;
+}
