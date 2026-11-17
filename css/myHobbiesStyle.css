@@ -81,3 +81,13 @@ article > p {
 .multiLogo {
   max-width: 256px;
 }
+
+#worldofwarcraft:hover {
+   cursor: url('https://cdn.cursors-4u.net/previews/world-of-warcraft-wow-glowing-hand-armor-d297a8ec-32.webp') 32 32, auto;
+  
+  }
+
+#EVEOnline:hover {
+     cursor: url('../img/Combatlog.png') 32 32, auto;
+
+}
