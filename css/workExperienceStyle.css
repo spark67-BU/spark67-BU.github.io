@@ -1,0 +1,25 @@
+
+
+#BUSEAL, #NCSUSEAL {
+    width: 64px;
+    height: 64px;
+}
+
+.icon {
+    display: flex;
+
+}
+
+p {
+    padding: 0.25rem
+}
+
+.pdf {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-width: 75vh;
+    height: 100vh;
+}
+
