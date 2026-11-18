@@ -10,10 +10,10 @@
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
-		background-image: url("../img/EVEOnlineFleet.png");
+	background-image: url("../img/photoGalleryFolder/DSC04745.jpg");
 	background-repeat: no-repeat;
-  	background-position: center;
-	
+	background-position:center;
+	background-size: auto 150vh  ;
 }
 
 h1 {
