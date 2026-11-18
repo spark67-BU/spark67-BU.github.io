@@ -61,7 +61,7 @@ img {
 }
 
 #planetside2 {
-        background-image: url("../img/20120820_503299cda3cc5-1782210518.jpg");
+        background-image: url("../img/arenabreakoutinfinite.jpg");
       background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -90,4 +90,12 @@ article > p {
 #EVEOnline:hover {
      cursor: url('../img/Combatlog.png') 32 32, auto;
 
+}
+
+#minecraft{
+  cursor: url('../img/minecraftpickaxe.png') 32 32, auto;
+}
+
+#planetside2:hover {
+  cursor: url('../img/Regen_Injection.webp') 16 16, auto;
 }
