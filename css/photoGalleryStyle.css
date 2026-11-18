@@ -2,9 +2,8 @@ img  {
     max-width: 25%;
 }
 
-/* .photoGallery {
+.photoGallery {
     display: flex;
-      flex-direction: column;
-
+    flex-wrap: wrap;
     
-} */
+}
