@@ -70,7 +70,7 @@ img {
 
 .gamingArticle article {
   width: min(90%, 50rem);
-  background-color: rgba(170, 66, 66, 0.822);
+	background-color:darkred;
   color:antiquewhite
 }
 
