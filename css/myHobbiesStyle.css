@@ -69,7 +69,7 @@ img {
 }
 
 .gamingArticle article {
-  width: min(90%, 50rem);
+  width: min(90%, 75rem);
 	background-color:darkred;
   color:antiquewhite
 }
@@ -99,3 +99,4 @@ article > p {
 #planetside2:hover {
   cursor: url('../img/Regen_Injection.webp') 16 16, auto;
 }
+
