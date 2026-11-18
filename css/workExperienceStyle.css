@@ -1,8 +1,12 @@
 
 
-#BUSEAL, #NCSUSEAL {
+#BUSEAL, #NCSUSEAL , #FIDELITYSEAL{
     width: 64px;
     height: 64px;
+}
+
+h2{
+    padding: 1rem
 }
 
 .icon {
@@ -15,11 +19,17 @@ p {
 }
 
 .pdf {
-    
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    min-width: 75vh;
+
+    min-width: 90vw;
     height: 100vh;
+}
+
+article {
+    padding: 1rem;
+}
+
+#Resume {
+    align-items: center;
+    justify-content: center;
 }
 
