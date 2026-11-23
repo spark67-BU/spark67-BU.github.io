@@ -100,3 +100,7 @@ article > p {
   cursor: url('../img/Regen_Injection.webp') 16 16, auto;
 }
 
+h1 {
+    margin: 0.5rem 33%;
+
+}

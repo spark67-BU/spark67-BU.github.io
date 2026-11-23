@@ -82,13 +82,15 @@ a {
 h1 {
     font-size: 48px;
 	background-color:darkred;
-	padding: 1rem;
+	padding: 0.5rem;
 	text-align: center;
 	color:azure;
+	margin: 0.5rem 25%;
+	border-radius: 6px;
 }
 
-	footer {
-	padding: 4rem;
+footer {
+	padding: 2rem;
 	text-align: center;
 	background-color:darkred;
 	color:white;
