@@ -1,9 +1,42 @@
 img  {
-    max-width: 25%;
+    max-width: 60rem;
+    max-height: 40rem;
 }
 
-.photoGallery {
-    display: flex;
-    flex-wrap: wrap;
+/* .photoGallery {
+
     
+} */
+
+
+#photoCarousel {
+  height: 55vh;
+  padding: 2rem 6rem 10rem 10rem;
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  overflow-y: hidden;
+
+}
+#photoCarouselContainer {
+    height: 100vh;
+}
+/* ul {
+
+} */
+
+li {
+  scroll-snap-align: center;
+}
+.imageslide {
+    height: 30rem;
+}
+.imageslide:hover {
+    zoom: 1.2;
+}
+
+h1 {
+    margin: 0.5rem 35%;
+
 }
