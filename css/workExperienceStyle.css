@@ -10,7 +10,6 @@ h2{
 }
 
 .icon {
-    display: flex;
 
 }
 
@@ -28,12 +27,23 @@ article {
     padding: 1rem;
 }
 
-#Resume {
-    align-items: center;
-    justify-content: center;
-}
 
 h1 {
-    margin: 0.5rem 30%;
+    margin: 0.5rem 20%;
 
+}
+
+#education {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+}
+
+.educationArticle {
+    text-align: center;
+}
+
+#resumeButton {
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 1rem;
 }

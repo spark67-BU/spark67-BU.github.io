@@ -1,6 +1,5 @@
 img  {
-    max-width: 60rem;
-    max-height: 40rem;
+
 }
 
 /* .photoGallery {
@@ -9,9 +8,8 @@ img  {
 } */
 
 
-#photoCarousel {
-  height: 55vh;
-  padding: 2rem 6rem 10rem 10rem;
+#photoCarouselPreview {
+  height: 25vh;
   display: flex;
   gap: 2rem;
   overflow-x: scroll;
@@ -19,8 +17,12 @@ img  {
   overflow-y: hidden;
 
 }
+#photoCarouselPreview > li > img{
+        max-width: 15rem;
+    max-height: 15rem;
+}
+
 #photoCarouselContainer {
-    height: 100vh;
 }
 /* ul {
 
@@ -37,6 +39,16 @@ li {
 }
 
 h1 {
-    margin: 0.5rem 35%;
+    margin: 0.5rem 20%;
 
+}
+
+#imageFocus {
+    max-width: 90%;
+    max-height: 75vh;
+    align-self: center;
+}
+
+#fullImageContainer {
+    min-height: 50vh;
 }
