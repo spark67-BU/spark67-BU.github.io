@@ -124,6 +124,7 @@ h1::before {
 .travelcard {
   border: 3px dashed crimson;
   gap: 0.25rem;
+  text-align: center;
 }
 
 .travelcard > img {
