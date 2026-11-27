@@ -37,3 +37,13 @@ h1 {
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
 }
+
+.educationArticle {
+    text-align: center;
+}
+
+#resumeButton {
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 1rem;
+}
