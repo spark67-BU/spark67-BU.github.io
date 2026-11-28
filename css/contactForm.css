@@ -7,11 +7,13 @@
     display: flex;
 
 }
+main {
+    height: 100vh;
 
+}
 form {
     padding: 2rem;
     font-size: 36px;
-    height: 100vh;
 }
 
 label {
