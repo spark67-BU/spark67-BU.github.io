@@ -71,7 +71,9 @@ img {
 .gamingArticle article {
   width: min(90%, 75rem);
 	background-color:darkred;
-  color:antiquewhite
+  color:antiquewhite;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
 
 article > p {
@@ -83,9 +85,13 @@ article > p {
 }
 
 #worldofwarcraft:hover {
-   cursor: url('https://cdn.cursors-4u.net/previews/world-of-warcraft-wow-glowing-hand-armor-d297a8ec-32.webp') 32 32, auto;
+   cursor: url('https://cdn.cursors-4u.net/previews/world-of-warcraft-wow-hand-armor-0d67e864-32.webp') 32 32, auto;
   
-  }
+}
+.wowicon:hover {
+   cursor: url('https://cdn.cursors-4u.net/previews/world-of-warcraft-wow-glowing-hand-armor-d297a8ec-32.webp') 32 32, auto;
+
+}
 
 #EVEOnline:hover {
      cursor: url('../img/Combatlog.png') 32 32, auto;
@@ -120,11 +126,15 @@ h1::before {
 .travel-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr  ;
+
 }
 .travelcard {
-  border: 3px dashed crimson;
+  border: 3px solid crimson;
+  border-radius: 5px;
   gap: 0.25rem;
+  margin: 0.25rem;
   text-align: center;
+  padding: 0.5rem;
 }
 
 .travelcard > img {

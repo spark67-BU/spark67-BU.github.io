@@ -1,6 +1,4 @@
-img  {
 
-}
 
 /* .photoGallery {
 
@@ -15,11 +13,13 @@ img  {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   overflow-y: hidden;
-
+  background-color: darkred;
+  border-radius: 5px;
 }
 #photoCarouselPreview > li > img{
         max-width: 15rem;
     max-height: 15rem;
+    border-radius: 5px;
 }
 
 #photoCarouselContainer {
@@ -30,9 +30,9 @@ img  {
 
 li {
   scroll-snap-align: center;
+  align-self: center;
 }
 .imageslide {
-    height: 30rem;
 }
 .imageslide:hover {
     zoom: 1.2;
@@ -51,4 +51,6 @@ h1 {
 
 #fullImageContainer {
     min-height: 50vh;
+        text-align: center;
+
 }

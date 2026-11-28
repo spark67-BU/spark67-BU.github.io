@@ -44,9 +44,6 @@ emailInput.addEventListener("input",enableSubmitButton);
 
 
 //Something funny.
-funny.addEventListener("click", () =>{
-    imageOfFunny.hidden = !imageOfFunny.hidden;
-});
 
 //Summary of user input.
 submitButton.addEventListener("click",() =>{
