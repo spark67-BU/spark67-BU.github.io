@@ -144,3 +144,7 @@ h1::before {
 #photography > a {
   color: crimson
 }
+
+#travel {
+  text-align: center;
+}
