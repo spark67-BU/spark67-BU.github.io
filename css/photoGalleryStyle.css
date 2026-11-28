@@ -1,9 +1,54 @@
 img  {
-    max-width: 25%;
+
 }
 
-.photoGallery {
-    display: flex;
-    flex-wrap: wrap;
+/* .photoGallery {
+
     
+} */
+
+
+#photoCarouselPreview {
+  height: 25vh;
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  overflow-y: hidden;
+
+}
+#photoCarouselPreview > li > img{
+        max-width: 15rem;
+    max-height: 15rem;
+}
+
+#photoCarouselContainer {
+}
+/* ul {
+
+} */
+
+li {
+  scroll-snap-align: center;
+}
+.imageslide {
+    height: 30rem;
+}
+.imageslide:hover {
+    zoom: 1.2;
+}
+
+h1 {
+    margin: 0.5rem 20%;
+
+}
+
+#imageFocus {
+    max-width: 90%;
+    max-height: 75vh;
+    align-self: center;
+}
+
+#fullImageContainer {
+    min-height: 50vh;
 }

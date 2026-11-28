@@ -100,3 +100,37 @@ article > p {
   cursor: url('../img/Regen_Injection.webp') 16 16, auto;
 }
 
+h1 {
+    margin: 0.5rem;
+
+}
+
+h1::before {
+  content: "";
+}
+
+#hobbyNav > a {
+  color: black;
+  font-size: 20px;
+}
+
+#hobbyNav {
+  text-align: center;
+}
+.travel-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+}
+.travelcard {
+  border: 3px dashed crimson;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.travelcard > img {
+  max-width: 10rem;
+}
+
+#photography > a {
+  color: crimson
+}
