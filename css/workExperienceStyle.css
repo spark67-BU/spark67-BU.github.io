@@ -29,7 +29,6 @@ article {
 
 
 h1 {
-    margin: 0.5rem 20%;
 
 }
 
@@ -40,10 +39,42 @@ h1 {
 
 .educationArticle {
     text-align: center;
+    margin: 0.5rem;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: white;
 }
 
 #resumeButton {
     background-color: crimson;
     border-radius: 5px;
     padding: 1rem;
+}
+
+#inprogress {
+    color:rgb(197, 168, 1);
+    
+}
+
+#skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) ;
+
+}
+
+#skills > article {
+    text-align:  center;
+}
+
+#WorkExperience{
+
+
+}
+.employmentSection {
+    text-align: center;
+    max-width: 50rem;
+}
+
+main {
+    min-height: 100vh;
 }
